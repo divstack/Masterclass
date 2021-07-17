@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+
+<style>
+    .link {
+        border: 1px solid grey;
+        padding: 6px 15px;
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    
+    .amazon {
+        background-color: #FFD814;
+    }
+    
+    .facebook {
+        background-color: #0F8FF2;
+        color: white;
+    }
+    
+    .twitter {
+        background-color: #1DA1F2;
+        color: white;
+    }
+    
+    .cnn {
+        background-color: crimson;
+        color: white;
+    }
+    
+    .header_list,
+    .automobile {
+        list-style-type: none;
+        display: flex;
+    }
+    
+    .list {
+        margin: 0 5px;
+        color: green;
+        font-size: 19px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 600;
+        border: 1px solid #333;
+        padding: 4px 5px;
+    }
+    
+    .aut {
+        margin: 0 5px;
+        border: 1px solid #3ae;
+        padding: 4px 14px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 600;
+        font-size: 19px;
+        color: #3ae;
+    }
+    
+    .car_list {
+        background-color: silver;
+        color: #333;
+    }
+    
+    .ddl,
+    .lis,
+    .lin,
+    .tbl {
+        border: 1px solid #333;
+        margin: 3px 0;
+        padding: 0 13px;
+    }
+    
+    .tbl {
+        padding: 9px 9px;
+    }
+    
+    .service_list {
+        color: #fff;
+        background-color: orange;
+    }
+    
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    
+    table td,
+    table th {
+        border: 1px solid #333;
+    }
+    
+    table thead {
+        background-color: crimson;
+        color: #fff;
+        font-size: 17px;
+    }
+    
+    table td {
+        padding: 3px 6px;
+    }
+    
+    .c1,
+    .c2 {
+        background-color: #ccc;
+    }
+</style>
+
+<body>
+
+    <h1>
+        this is a site
+    </h1>
+
+    <div class="lin">
+        <h3>Links</h3>
+        <p>
+            <a href="https://cnn.com/" target="_blank" class="link cnn">Cnn</a>
+            <a href="https://facebook.com/" target="_blank" class="link facebook">Facebook</a>
+            <a href="https://twitter.com/" target="_blank" class="link twitter">Twitter</a>
+            <a href="https://amazon.com/" target="_blank" class="link amazon">Amazon</a>
+        </p>
+
+    </div>
+
+
+    <div class="lis">
+        <h3>Lists</h3>
+        <p>
+            <ul class="header header_list">
+                <li class="list home_list">Home</li>
+                <li class="list about_list">About</li>
+                <li class="list service_list">Services</li>
+                <li class="list contact_list">Contacts</li>
+            </ul>
+
+            <ul class="automobile">
+                <li class="aut car_list">Car</li>
+                <li class="aut truck_list">Truck</li>
+                <li class="aut motor_list">Motorcycle</li>
+            </ul>
+        </p>
+
+    </div>
+
+
+    <div class="ddl">
+        <h3>Dropdown</h3>
+        <p>
+
+            Gender: <select name="" id="">
+           <option value="">Male</option>
+           <option value="">Female</option>
+       </select>
+        </p>
+
+    </div>
+    <div class="tbl">
+        <h3>Tables</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Country
+                    </th>
+                    <th> Capital</th>
+                    <th> Language</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="tr c1">
+                    <td>USA</td>
+                    <td>Washington DC</td>
+                    <td>English</td>
+                </tr>
+                <tr class="tr c2">
+                    <td>England</td>
+                    <td>London</td>
+                    <td>English</td>
+                </tr>
+                <tr class="tr c3">
+                    <td>Cameroon</td>
+                    <td>Yaounde</td>
+                    <td>French/English</td>
+                </tr>
+                <tr class="tr c4">
+                    <td>France</td>
+                    <td>Paris</td>
+                    <td>French</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+    <script src="" async defer></script>
+</body>
+
+</html>
